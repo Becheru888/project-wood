@@ -7,7 +7,7 @@ import { BrowserRouter as Router,
 } from 'react-router-dom'
 import styled from 'styled-components';
 import Home from './pages/home';
-import Services from './pages/services';
+import Galerie from './pages/galerie';
 import About from './pages/about';
 import Contact from './pages/contact';
 
@@ -25,7 +25,7 @@ function App() {
           </ul>
         </div>
         <Home/>
-        <Services/>
+        <Galerie/>
         <About/>
         <Contact/>
          <div className='footer'>

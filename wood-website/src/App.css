@@ -51,11 +51,15 @@ a {
 /*Style begguns*/
 
 .navigation {
+  position: fixed;
+  background: #fff;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0 0.3125rem 0.3125rem 0 rgb(27 70 194 / 1%);
+  z-index: 5;
 }
 
 .logo {
@@ -70,17 +74,21 @@ a {
   align-items: center;
   justify-content: space-evenly;
   height: 40px;
-  margin: 1% 0;
+  margin: 0.5% 0;
 }
 
-.home, .services, .about, .contact {
+.home, .galerie, .about, .contact {
   width: 100%;
   height: 100vh;
   background: #f8f9ff;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
+}
+
+.galerie .carousel {
+  box-shadow: 0 0.3125rem 0.3125rem 0 rgb(27 70 194 / 1%);
 }
 
 .footer {
@@ -97,10 +105,11 @@ a {
 .headline-wrapper {
   width: 80%;
   text-align: center;
-  margin:5% 0 10% 0;
+  height: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
 
 .subheadline{
@@ -115,11 +124,12 @@ a {
   justify-content: space-evenly;
   flex-direction: row;
   margin-bottom: 3%;
+  flex-wrap: wrap;
 }
 
 .box {
-  width: 20%;
-  height: 365px;
+  width: 22%;
+  height: 400px;
   background: white;
   box-shadow: 0 0.3125rem 0.3125rem 0 rgb(27 70 194 / 1%);
   border-radius: 1px;
@@ -128,6 +138,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 2%;
+  min-width: 305px;
 }
 
 .icon {
@@ -150,6 +161,12 @@ a {
   text-align: center;
 }
 
+.galerie h3 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
 .box p {
   text-align: center;
   line-height: 1.5;
@@ -167,12 +184,25 @@ a {
 }
 
 .box-wrapper {
-  height: 60%;
+  height: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
 
+ .carousel-control-prev-icon {
+  width: 25px;
+  height: 25px;
+  background: #2b4eb4 no-repeat center center;
+  border-radius: 50%;
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
 
-
+.carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+  background: #2b4eb4 no-repeat center center;
+  border-radius: 50%;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+} 
