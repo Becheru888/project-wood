@@ -6,7 +6,7 @@ export default function Home(){
     return (
         <div className='home'>
         <div className='headline-wrapper'>
-            <h1 className='headline'>Lemn la nivel de artă</h1>
+            <h1 className='headline'>Transformăm lemnul in artă</h1>
             <p className='subheadline'>Casele din lemn sunt privite mai degrabă ca niște construcții de vacanță, destinate petrecerii timpului pe perioade scurte de timp, însă ele pot fi și locuințe permanente.</p>
         </div>
         <div className='benefits'>
