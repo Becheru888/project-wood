@@ -1,15 +1,17 @@
 import './App.css';
-import Logo from './assets/Logo2.png';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import { BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from 'react-router-dom'
 import styled from 'styled-components';
+import Logo from './assets/Logo2.png';
 import Home from './pages/home';
 import Galerie from './pages/galerie';
 import About from './pages/about';
 import Contact from './pages/contact';
+
 
 function App() {
   return (
@@ -31,6 +33,10 @@ function App() {
          <div className='footer'>
            <h1>Footer</h1>
          </div>
+         <MessengerCustomerChat
+            pageId="104531298671508"
+            appId="3002503663370675"
+         />
     </div>
     </Router>
   );
