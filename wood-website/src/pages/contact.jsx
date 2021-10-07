@@ -1,17 +1,20 @@
 import Call from '../assets/call.svg';  
+import Logo from '../assets/Logo-svg.svg';
 
 export default function Contact(){
     return (
-        <div className='contact'>
+        <div id='contact' className='contact'>
              <div style={{display:"flex", alignItems:'center'}}>
               <h3>Contactează-ne</h3>
               <img width="50px" style={{margin:'0 0 0 10px'}} src={Call}/>
             </div>
-            <div>
-                <p>Raspundem bucurosi la orice intrebare aveti. Ne puteti contacta la numarul de telefon de mai jos, s-au direct prin email.</p>
-                <p>Reprezentant: <span>Nicolas Branescu</span></p>
-                <p>Numar de telefon: <span>0765009429</span></p>
-                <p>Email: nicolas-branescu@cabanute-luxoase.ro</p>
+            <p>Program: Luni - Vineri 08:00 - 18:00</p>
+            <p className='contact-info-p'>Vă răspundem bucuroși la orice intrebare aveți. <br/> Ne puteți contacta la numărul de telefon de mai jos, prin email, sau trimiteți un mesaj direct pe pagina noastră de facebook folosind iconița din dreapta jos a ecranului.</p>
+            <div className='contact-info'>
+                <div className='contact-logo'><img src={Logo} width="50px"/></div>
+                <p><span>Reprezentant: </span> Nicolas Branescu</p>
+                <p><span>Numar de telefon:</span> 0765009429</p>
+                <p><span>Email:</span> nicolas-branescu@cabanute-luxoase.ro</p>
             </div>
         </div>
     )

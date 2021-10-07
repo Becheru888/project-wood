@@ -21,7 +21,7 @@ export default function Galerie(){
     console.log(pics)
     // Pic7, Pic8, Pic9, Pic10, Pic11, Pic12, Pic13, Pic14, Pic15
     return (
-        <div className='galerie'>
+        <div id="galery" className='galerie'>
             <div style={{display:"flex", alignItems:'center'}}>
               <h3>Galeria cu lucrări</h3>
               <img width="50px" style={{margin:'0 0 0 10px'}} src={ImgGal}/>
