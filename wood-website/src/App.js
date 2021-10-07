@@ -26,7 +26,7 @@ function App() {
         <About/>
         <Contact/>
          <div className='footer'>
-           <small style={{display:'flex', justifyContent:'center'}}>© Copyright 2021 All rights reserved</small>
+           <small style={{display:'flex', justifyContent:'center', padding:'10px'}}>© Copyright 2021 All rights reserved</small>
          </div>
          <MessengerCustomerChat
             pageId="104531298671508"
