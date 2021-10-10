@@ -89,7 +89,7 @@ a {
 
 .navigation li {
   cursor: pointer;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -274,11 +274,15 @@ p {
   background: transparent;
 }
 
+.list-group li {
+  font-weight: 500;
+}
+
 @media only screen and (max-width: 1230px) {
   .home, .galerie, .about, .contact {
     height: 100%;
     margin-bottom: 5%;
-  }
+}
 
   .box {
     margin-top: 60px;
