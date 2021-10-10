@@ -100,7 +100,7 @@ a {
 
 .contact-info {
   background: #fff;
-  padding: 3%;
+  padding: 45px;
   border-radius: 5px;
   position: relative;
   box-shadow: 0 0.3125rem 0.3125rem 0 rgb(27 70 194 / 1%);
@@ -288,4 +288,50 @@ p {
     margin-top: 70px;
   }
 
+  .galerie > div, .about > div, .contact > div {
+    margin-bottom: 50px;
+  }
+
+  .contact-info-p {
+    margin-bottom: 50px;
+    margin: 20px 0
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .navigation ul {
+    display: none;
+  }
+
+  .navigation {
+    min-height: 50px;
+    position: initial;
+  }
+
+  .box {
+    margin : 50px 
+  }
+
+  .box-wrapper {
+    height: 60%;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .headline-wrapper, .description, .contact-info-p {
+    width: 90%;
+  }
+
+  .headline {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .subheadline {
+    width: 90%;
+  }
 }
