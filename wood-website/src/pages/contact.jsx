@@ -6,7 +6,7 @@ export default function Contact(){
         <div id='contact' className='contact'>
              <div style={{display:"flex", alignItems:'center'}}>
               <h3>Contactează-ne</h3>
-              <img width="50px" style={{margin:'0 0 0 10px'}} src={Call}/>
+              <img className='section-icon' width="50px" style={{margin:'0 0 0 10px'}} src={Call}/>
             </div>
             <p style={{fontWeight:'500'}}>Program: Luni - Vineri 08:00 - 18:00</p>
             <p className='contact-info-p'>Vă răspundem bucuroși la orice intrebare aveți. <br/> Ne puteți contacta la numărul de telefon de mai jos, prin email, sau trimiteți un mesaj direct pe pagina noastră de facebook folosind iconița din dreapta jos a ecranului.</p>

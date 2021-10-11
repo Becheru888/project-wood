@@ -5,7 +5,7 @@ export default function About(){
         <div id='about' className='about'>
             <div style={{display:"flex", alignItems:'center'}}>
               <h3>Despre noi</h3>
-              <img width="50px" style={{margin:'0 0 0 10px'}} src={Info}/>
+              <img className='section-icon' width="50px" style={{margin:'0 0 0 10px'}} src={Info}/>
             </div>
             <div className='description'>
             <p>Cu peste 20 de ani de experiență ne putem mândri ca am putut realiza foarte multe proiecte de diferite complexitați. Având o echipă puternică și creativă în spate care depune un efort considerabil ca produsele la care lucrăm sa fie dovada calitații promise. Tipologiile întâlnite in echipa noastră sunt: Coordonatorul, Creativul, Supervizorul, Omul de echipă, Finalizatorul.    </p>

@@ -87,6 +87,10 @@ a {
   flex-direction: column;
 }
 
+.home {
+  height: 160vh;
+}
+
 .navigation li {
   cursor: pointer;
   padding: 10px;
@@ -164,7 +168,7 @@ a {
 .headline-wrapper {
   width: 80%;
   text-align: center;
-  height: 300px;
+  height: 600px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -284,6 +288,7 @@ p {
     margin-bottom: 5%;
 }
 
+
   .box {
     margin-top: 60px;
   }
@@ -304,7 +309,7 @@ p {
 }
 
 @media only screen and (max-width: 1050px) {
-
+  
   .navigation ul {
     display: none;
   }
@@ -330,6 +335,11 @@ p {
     width: 90%;
   }
 
+  .description, .contact {
+    justify-content: space-evenly;
+    height: 600px;
+  }
+
   .headline {
     font-size: 25px;
     margin-bottom: 25px;
@@ -337,5 +347,9 @@ p {
 
   .subheadline {
     width: 90%;
+  }
+
+  .section-icon {
+    width: 30px;
   }
 }

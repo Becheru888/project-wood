@@ -1,6 +1,7 @@
 import Clock from '../assets/clock.svg';
 import Temp from '../assets/temp.svg';
 import Saving from '../assets/saving.svg';
+import Cabin from '../assets/cabin.svg';
 
 export default function Home(){
     return (
@@ -8,6 +9,7 @@ export default function Home(){
         <div className='headline-wrapper'>
             <h1 className='headline'>Transformăm lemnul in artă</h1>
             <p className='subheadline'>Casele din lemn sunt privite mai degrabă ca niște construcții de vacanță, destinate petrecerii timpului pe perioade scurte de timp, însă ele pot fi și locuințe permanente.</p>
+            <img src={Cabin} width='80%' style={{margin:'50px 0', maxWidth:'500px'}}/>
         </div>
         <div className='benefits'>
           <div className='box'>

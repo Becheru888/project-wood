@@ -13,18 +13,20 @@ import Pic12 from '../assets/pictures/ex12.png';
 import Pic13 from '../assets/pictures/ex13.png';
 import Pic14 from '../assets/pictures/ex14.png';
 import Pic15 from '../assets/pictures/ex15.png';
+import Pic16 from '../assets/pictures/ex16.png';
+import Pic17 from '../assets/pictures/ex17.png';
 import ImgGal from '../assets/image-gallery.svg';
 
 
 export default function Galerie(){
-    const pics = [Pic1, Pic2, Pic3, Pic4, Pic5, Pic6, Pic7, Pic8, Pic9, Pic10, Pic11, Pic12, Pic13, Pic14, Pic15]
+    const pics = [Pic1, Pic2, Pic3, Pic4, Pic5, Pic6, Pic7, Pic8, Pic9, Pic10, Pic11, Pic12, Pic13, Pic14, Pic15, Pic16, Pic17]
     console.log(pics)
     // Pic7, Pic8, Pic9, Pic10, Pic11, Pic12, Pic13, Pic14, Pic15
     return (
         <div id="galery" className='galerie'>
             <div style={{display:"flex", alignItems:'center'}}>
               <h3>Galeria cu lucrări</h3>
-              <img width="50px" style={{margin:'0 0 0 10px'}} src={ImgGal}/>
+              <img className='section-icon' width="50px" style={{margin:'0 0 0 10px'}} src={ImgGal}/>
             </div>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
              <ol className="carousel-indicators">

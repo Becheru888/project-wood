@@ -1,7 +1,7 @@
 import './App.css';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import styled from 'styled-components';
-import Logo from './assets/Logo2.png';
+import Logo from './assets/Logov3.svg';
 import Home from './pages/home';
 import Galerie from './pages/galerie';
 import About from './pages/about';
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
        <div className='navigation'>
-       <img className='logo' src={Logo}/>
+       <img className='logo' src={Logo} width='80px'/>
         <ul>
               <li><Link to='home' smooth={true} duration={1000}>Acasa</Link></li>
               <li><Link to='galery' smooth={true} duration={1000}>Galerie</Link></li>
