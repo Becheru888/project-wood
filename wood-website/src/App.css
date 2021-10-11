@@ -313,6 +313,9 @@ p {
   .navigation ul {
     display: none;
   }
+  .home, .galerie, .about, .contact {
+    margin-bottom: 100px;
+  }
 
   .navigation {
     min-height: 50px;
