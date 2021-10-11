@@ -1,7 +1,6 @@
 import './App.css';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import styled from 'styled-components';
-import Logo from './assets/Logov3.svg';
+import Logo from './assets/logov3.svg';
 import Home from './pages/home';
 import Galerie from './pages/galerie';
 import About from './pages/about';
